@@ -10,6 +10,7 @@
 
 - A aplicação permite uma navegação em um formulário interativo, onde o usuário coloca seu nome, idade, escolhe gênero e interesses.
 - Se o usuário clicar em enviar e não colocar nome,idade,gênero ou interesses o sistema avisa para preencher.
+- Se o usuário colocar uma idade menor ou igual a zero, o sistema pede para digitar uma idade válida.  
 - Após ter preenchido com todos os dados, o sistema informa o produto sugerido para o usuário.   
 
 
