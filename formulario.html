@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <!--Cabeçalho -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!--Título da página -->
+      <title>Formulário Interativo</title>     
+      <link rel="stylesheet" href="./src/css/style.css"> <!--executar arquivo css-->
+      <script src="./src/javascript/javascript.js" defer></script> <!--executar arquivo javascript-->      
+      <!--Adicionar um favicon-->
+      <link rel="icon" type="image/x-icon" href="icons8-x-50.png">      
+   </head>
+
+     
+   <body>
+    <div class="principal"> <!--essa div principal  engloba o formulario-->
+    <h2 class="titulo">Formulário Interativo: Sugestão de Produto</h2>
+    <form id="formulario">
+      <label>Nome: <input type="text" id="nome" required></label>
+      <div id="erro-nome" class="error"></div><br>
+
+      <label>Idade: <input type="number" id="idade" required></label>
+      <div id="erro-idade" class="error"></div><br>
+
+      <label>Gênero:</label><br>
+      <label><input type="radio" name="genero" value="masculino"> Masculino</label><br>
+      <label><input type="radio" name="genero" value="feminino"> Feminino</label><br>
+      <label><input type="radio" name="genero" value="outro"> Outro</label>
+      <div id="erro-genero" class="error"></div><br>
+
+      <label>Interesses:</label><br>
+      <label><input type="checkbox" name="interesses" value="tecnologia"> Tecnologia</label><br>
+      <label><input type="checkbox" name="interesses" value="moda"> Moda</label><br>
+      <label><input type="checkbox" name="interesses" value="esportes"> Esportes</label><br>
+      <label><input type="checkbox" name="interesses" value="livros"> Livros</label>
+      <div id="erro-interesses" class="error"></div><br>
+
+     <button type="submit">Enviar</button>     
+   </form>
+   <div class="result" id="resultado"></div>
+   </div><!--fecha a div principal-->
+ </body>
+</html>

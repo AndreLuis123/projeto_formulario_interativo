@@ -1,0 +1,22 @@
+body {
+   font-family: Arial, sans-serif;
+   max-width: 600px;
+   margin: auto;
+   background-color: dimgray; /*cor da pagina */
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+.principal {  
+  background-color:darkkhaki; /*cor dp formulario*/
+  margin-top: 270px; /*margem do topo */  
+}
+.titulo {
+  text-align: center;
+}
